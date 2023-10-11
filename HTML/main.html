@@ -35,7 +35,7 @@
         </div>
        </div>   
        <!-- carosal section        -->
-        <div class="swiper mySwiper">
+         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide"><img src="https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw584fcdaf/images/GotaGirls-Desk-Web-Banner-1920x825.jpg" alt="Slide1"/></div>
                 <div class="swiper-slide"><img src="https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dwa3d65671/images/WestKnits-Desk-Web-Banner-1920x825.jpg" alt="Slide2"/></div>
@@ -45,7 +45,8 @@
                 <div class="swiper-slide"><img src="https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw59601e81/images/Sale-Desk-Web-Banner-1920x825-3.jpg"/></div>
             <div class="swiper-pagination"></div>
           </div>
-        </div>
+        </div> 
+        <!-- swiper section -->
         <div class="container2">
           <div class="img1"><img src="https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw6677ae20/images/WestKnits-2nd-scroll-1.jpg" alt="No display" class="img"></div>
           <div class="img1"><img src="https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dwa5d80bf3/images/GotaGirls-2nd-scroll-2.jpg" alt="No display"class="img" ></div>
@@ -56,8 +57,21 @@
           <div class="img1"><img src="https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw07f15995/images/WestKnits-2nd-scroll.jpg" alt="No display" class="img"></div>
           <div class="img1"><img src="https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dwbcc73c02/27-9-23-sale-2nd-Scroll.jpg" alt="No display" class="img"></div>
         </div>
+        <!-- img display -->
         
-          
+      
+          <div class="box3">
+            <div class="subcontainer1"><img src="https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Library-Sites-KhaadiSharedLibrary/default/dw477ce25a/images/Fabrics%20Homepage-Category-Banner-986x770.jpg-1.jpg" alt="No image"></div>
+            <div class="subcontainer2"><div class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="https://pk.khaadi.com/dw/image/v2/BJTG_PRD/on/demandware.static/-/Sites-khaadi-master-catalog/default/dw237a64a4/images/hi-res/ama231006_purple_1.jpg?sw=400&sh=600" class="fabric1"></div>
+                <div class="swiper-slide"><div class="fabric2"></div></div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+              </div>
+              
+            </div>
+          </div>
         
 
     </div>
@@ -81,9 +95,16 @@
       },
     });
   </script>
-</body>
-
-</html>
+   <script>
+    var swiper = new Swiper(".mySwiper2", {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
 
 </body>
 </html>
